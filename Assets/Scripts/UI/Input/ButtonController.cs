@@ -4,7 +4,7 @@ using UnityEngine.EventSystems;
 
 namespace StairwayGamesTest.UI.Input
 {
-    public abstract class ButtonController : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler, IPointerUpHandler
+    public class ButtonController : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerDownHandler, IPointerUpHandler
     {
         protected ButtonView View;
         

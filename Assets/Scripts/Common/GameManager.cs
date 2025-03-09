@@ -1,6 +1,4 @@
-﻿using System;
-using StairwayGamesTest.Data;
-using StairwayGamesTest.Data.Enums;
+﻿using StairwayGamesTest.Data;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -21,8 +19,6 @@ namespace StairwayGamesTest.Common
             SceneManager.LoadScene(1, LoadSceneMode.Additive);
             
             DataController.ResetInventory();
-            return;
-
         }
     }
 }

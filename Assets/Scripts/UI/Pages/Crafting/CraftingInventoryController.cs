@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using StairwayGamesTest.Data;
 using UnityEngine;
 
@@ -11,7 +10,7 @@ namespace StairwayGamesTest.UI.Pages.Crafting
         [SerializeField] private GameObject listItemParent;
         
         private readonly List<CraftingInventoryListItemController> _listItems = new();
-        
+
         private void Awake()
         {
             DataController.DataChanged += RefreshInventory;

@@ -1,11 +1,8 @@
-using System;
 using System.Collections.Generic;
-using DG.Tweening;
 using StairwayGamesTest.Common;
 using StairwayGamesTest.Data;
 using StairwayGamesTest.Data.Enums;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace StairwayGamesTest.UI.Pages.Crafting
 {

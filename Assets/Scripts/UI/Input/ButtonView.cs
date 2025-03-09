@@ -1,12 +1,8 @@
-using System;
 using UnityEngine;
-using UnityEngine.Events;
-using UnityEngine.EventSystems;
-using UnityEngine.UI;
 
 namespace StairwayGamesTest.UI.Input
 {
-    public abstract class ButtonView : MonoBehaviour
+    public class ButtonView : MonoBehaviour
     {
         private void OnDisable()
         {

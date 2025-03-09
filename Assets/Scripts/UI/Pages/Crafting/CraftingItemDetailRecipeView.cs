@@ -1,7 +1,6 @@
 ﻿using StairwayGamesTest.Common;
 using StairwayGamesTest.Data;
 using StairwayGamesTest.Data.Enums;
-using StairwayGamesTest.Data.Game;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;

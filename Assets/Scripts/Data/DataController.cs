@@ -101,7 +101,7 @@ namespace StairwayGamesTest.Data
             return Model.InventorySlots.Exists(x => x.ItemId == itemId) || Model.InventorySlots.Any(slot => slot.ItemId == ItemId.None && !slot.Locked);
         }
 
-        public static void AddItem(ItemId itemId, int amount)
+        private static void AddItem(ItemId itemId, int amount)
         {
             foreach (var slot in Model.InventorySlots)
             {
@@ -130,12 +130,7 @@ namespace StairwayGamesTest.Data
             return Model.InventorySlots;
         }
 
-        private static void MoveInventoryItem()
-        {
-            
-        }
-
-        public static void SetInventoryLock(int slotIndex, bool locked)
+        private static void SetInventoryLock(int slotIndex, bool locked)
         {
             Model.InventorySlots[slotIndex].Locked = locked;
         }

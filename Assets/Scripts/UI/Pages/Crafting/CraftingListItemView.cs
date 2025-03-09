@@ -1,11 +1,9 @@
-using System;
 using DG.Tweening;
 using StairwayGamesTest.Common;
 using StairwayGamesTest.Data.Game;
 using StairwayGamesTest.UI.Input;
 using TMPro;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 namespace StairwayGamesTest.UI.Pages.Crafting
