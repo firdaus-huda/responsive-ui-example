@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5284444455b42e38244fcc989277806, type: 3}
+  m_Name: ItemInfo
+  m_EditorClassIdentifier: 
+  itemInfo:
+  - itemId: 1
+    itemType: 2
+    itemName: Aging barrel
+    description: Used for fermenting tea, rice, or cheese.
+    spriteName: barrel
+    craftable: 1
+    craftingRecipe:
+    - itemId: 7
+      amount: 20
+  - itemId: 3
+    itemType: 6
+    itemName: Rope
+    description: Can be used to descend into the mine.
+    spriteName: rope
+    craftable: 1
+    craftingRecipe:
+    - itemId: 5
+      amount: 200
+  - itemId: 4
+    itemType: 4
+    itemName: Ordinary Scarecrow
+    description: Discourages crows from disturbing crops. Protects an 11x11 area.
+    spriteName: scarecrow
+    craftable: 1
+    craftingRecipe:
+    - itemId: 2
+      amount: 20
+    - itemId: 7
+      amount: 20
+  - itemId: 5
+    itemType: 5
+    itemName: Stone
+    description: 
+    spriteName: stone
+    craftable: 0
+    craftingRecipe: []
+  - itemId: 6
+    itemType: 3
+    itemName: Stone path
+    description: Place on the ground.
+    spriteName: stone_path
+    craftable: 1
+    craftingRecipe:
+    - itemId: 5
+      amount: 1
+  - itemId: 7
+    itemType: 5
+    itemName: Wood
+    description: 
+    spriteName: wood
+    craftable: 0
+    craftingRecipe: []
+  - itemId: 8
+    itemType: 3
+    itemName: Wood path
+    description: Place on the ground.
+    spriteName: wood_path
+    craftable: 1
+    craftingRecipe:
+    - itemId: 7
+      amount: 1
+  - itemId: 9
+    itemType: 1
+    itemName: Wooden chest
+    description: Storage for all kinds of items. Can be placed around the island,
+      and hold up to 40 objects
+    spriteName: wooden_chest
+    craftable: 1
+    craftingRecipe:
+    - itemId: 7
+      amount: 50
+  - itemId: 2
+    itemType: 5
+    itemName: Fiber
+    description: 
+    spriteName: fiber
+    craftable: 0
+    craftingRecipe: []
