@@ -1,8 +1,6 @@
 using System;
-using DG.Tweening;
 using StairwayGamesTest.UI.Input;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 namespace StairwayGamesTest.UI
 {

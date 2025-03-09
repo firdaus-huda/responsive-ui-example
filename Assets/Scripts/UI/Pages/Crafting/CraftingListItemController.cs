@@ -2,7 +2,6 @@ using System;
 using StairwayGamesTest.Data.Enums;
 using StairwayGamesTest.Data.Game;
 using StairwayGamesTest.UI.Input;
-using UnityEngine;
 using UnityEngine.EventSystems;
 
 namespace StairwayGamesTest.UI.Pages.Crafting

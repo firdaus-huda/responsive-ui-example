@@ -1,5 +1,4 @@
 ﻿using StairwayGamesTest.Data.Enums;
-using StairwayGamesTest.Data.Game;
 using StairwayGamesTest.UI.Input;
 
 namespace StairwayGamesTest.UI.Pages.Crafting

@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using DG.Tweening;
 using StairwayGamesTest.Data;
 using StairwayGamesTest.UI.Input;
@@ -10,11 +9,11 @@ namespace StairwayGamesTest.UI
 {
     public class MainMenuController : MonoBehaviour
     {
-        [SerializeField] private MainMenuButtonController openCraftingButton;
-        [SerializeField] private MainMenuButtonController changeDisplayButton;
-        [SerializeField] private MainMenuButtonController changeResolutionButton;
-        [SerializeField] private MainMenuButtonController resetInventoryButton;
-        [SerializeField] private MainMenuButtonController exitButton;
+        [SerializeField] private ButtonController openCraftingButton;
+        [SerializeField] private ButtonController changeDisplayButton;
+        [SerializeField] private ButtonController changeResolutionButton;
+        [SerializeField] private ButtonController resetInventoryButton;
+        [SerializeField] private ButtonController exitButton;
 
         [SerializeField] private CanvasGroup inventoryCanvas;
         [SerializeField] private InventoryCanvasController inventoryCanvasController;

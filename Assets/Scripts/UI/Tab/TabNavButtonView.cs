@@ -1,6 +1,4 @@
-﻿using System;
-using DG.Tweening;
-using StairwayGamesTest.Common;
+﻿using DG.Tweening;
 using StairwayGamesTest.UI.Input;
 using UnityEngine;
 using UnityEngine.UI;

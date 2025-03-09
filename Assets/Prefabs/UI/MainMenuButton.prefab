@@ -236,8 +236,8 @@ GameObject:
   - component: {fileID: 9095313641557126938}
   - component: {fileID: 5874429059647229304}
   - component: {fileID: 4058493933993213077}
-  - component: {fileID: 2355561108956658771}
   - component: {fileID: 291715666172739458}
+  - component: {fileID: 3957271025105929488}
   m_Layer: 0
   m_Name: MainMenuButton
   m_TagString: Untagged
@@ -306,18 +306,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2355561108956658771
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5808690263252731238}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580bea3e69c9430a99f31817deec0a95, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &291715666172739458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -331,6 +319,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hoverFrame: {fileID: 887912491276222936}
+--- !u!114 &3957271025105929488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5808690263252731238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f908038236ff194091b65160f1aebc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8401699127810737264
 GameObject:
   m_ObjectHideFlags: 0

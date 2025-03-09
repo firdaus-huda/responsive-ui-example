@@ -1,5 +1,4 @@
 using StairwayGamesTest.UI.Input;
-using UnityEngine;
 
 namespace StairwayGamesTest.UI
 {

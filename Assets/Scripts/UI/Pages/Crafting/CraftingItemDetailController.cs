@@ -1,5 +1,4 @@
-﻿using System;
-using StairwayGamesTest.Data.Game;
+﻿using StairwayGamesTest.Data.Game;
 using UnityEngine;
 
 namespace StairwayGamesTest.UI.Pages.Crafting
