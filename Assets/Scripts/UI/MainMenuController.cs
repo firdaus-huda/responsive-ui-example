@@ -34,6 +34,9 @@ namespace StairwayGamesTest.UI
             inventoryCanvasController.CanvasClosed += OnInventoryCanvasClosed;
 
             _currentDisplayMode = FullScreenMode.Windowed;
+            var currentRes = resolutions[_currentResolutionIndex];
+            Screen.SetResolution((int)currentRes.x, (int)currentRes.y, _currentDisplayMode);
+            resolutionText.text = $"Resolution ({currentRes.x} x {currentRes.y})";
         }
 
         private void OnDestroy()
