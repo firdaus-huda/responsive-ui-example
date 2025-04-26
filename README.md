@@ -1,59 +1,59 @@
-# Frontend Game Programmer Test - Documentation  
+# Unity Responsive UI Showcase  
 **Author:** Huda Firdaus  
-**Date:** 10 March 2025  
+**Date:** March 2025  
 
 ## Overview  
 
-This project is created as part of the Frontend Game Programmer test provided by Stairway Games.  
-The main goal is to replicate a given UI design, simulate user interactions, and demonstrate responsive behavior across different aspect ratios.  
+This project demonstrates my skills in building responsive and interactive UI layouts using Unity.  
+As part of the project, I recreated a portion of the UI from ***Coral Island*** (by Stairway Games) to showcase accurate layout replication, dynamic responsiveness, and transitions.
 
 ## Technology Used  
 
-- **Game Engine:** Unity 6000.0.29f  
+- **Engine:** Unity 6000.0.29f  
 - **Language:** C#  
 
-## Features  
+## Plugin  
 
-### 1. UI Design  
-- Recreated the UI design using custom measurements and placeholder assets.  
-- Focused on layout consistency and alignment.  
+- **[DOTween (Demigiant)](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676):**  
+  Used for animating UI transitions, smooth tweens, and button interactions.
 
-### 2. Responsiveness  
-- UI layout adjusts dynamically to different aspect ratios and screen resolutions.  
-- Resolution presets included:  
+## Key Features  
+
+### ✨ Responsive UI Layout  
+- Dynamic adjustment to various screen resolutions and aspect ratios.  
+- Tested on resolution presets:  
   - 1600 x 900 (16:9)  
   - 1600 x 1000 (16:10)  
   - 1600 x 675 (21:9)  
-- Window mode options:  
-  - Windowed  
-  - Borderless  
-- Window is resizable by dragging the sides to simulate various aspect ratios freely.  
+- Resizable window support to simulate various screen setups.  
 
-### 3. Interactions and Animations  
-- Button hover and click feedback.  
-- Pagination and list navigation with smooth transitions.  
-- Screen in/out transitions.  
+### 🎨 UI Design and Layout  
+- Recreated UI screens inspired by ***Coral Island*** using placeholder assets and accurate custom measurements.  
+- Focused on clean visual structure, scaling, and proper hierarchy organization within Unity's UI system.  
 
-### 4. Input Support  
+### 🖱️ User Interaction and Animations  
+- Interactive buttons with hover and click feedback.  
+- Smooth list transitions and screen animations using **DOTween**.  
+- Seamless screen in/out transitions.
+
+### 🎮 Input and Feedback  
 - Click to interact with UI elements.  
 - Keyboard input controls are shown on screen as part of the UI for clarity. 
 
-## How to Run the Project  
+## How to Try It  
 
-The project is provided as a **standalone build**, which can be downloaded from the link below:  
+The project is available as a standalone PC build.  
+👉 **Download Here:** [Google Drive](https://drive.google.com/file/d/1MHTXg-g5EHG65RmEPRImiUEso0G-ggMq/view?usp=sharing)
 
-👉 **Download Link:** [Google Drive](https://bit.ly/huda-stairway-test-build)  
-
+Simply download, extract, and run the executable file.  
+You can freely resize the window or use in-game settings to test responsiveness.
 
 ## Disclaimer  
 
-*All assets used in this project are intended solely for the purpose of completing this recruitment task.*  
-*There is no intention of using any of these assets for commercial purposes.*  
-*All rights to the respective assets belong to their original creators.*  
-
-*The GitHub repository provided for this test will be set to **private** after the test period ends.*
+*This project is a non-commercial showcase for educational and portfolio purposes.*  
+*All visual assets are placeholders. Original UI inspiration and rights belong to Stairway Games (*Coral Island*).*  
 
 ## Contact  
 
-If you have any questions or need further clarification, feel free to contact me:  
-**Email:** [firdaushuda@gmail.com](mailto:firdaushuda@gmail.com)  
+For questions, collaborations, or further discussion:  
+📧 **Email:** [firdaushuda@gmail.com](mailto:firdaushuda@gmail.com)
